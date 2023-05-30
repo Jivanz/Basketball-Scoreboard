@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: 3px solid slategray;
+    border-radius: 10px;
+    padding: 1px 2px 0px 0px;
+    margin: 2px;
+    background-color: #1B244A;
+    color: #fff;
+}
+
+
+.score {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    background-color: #080001;
+    color: #F94F6D;
+    margin: 0;
+    padding: 0 20px 0px;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    color: #fff;
+    background-color: #1B244A;
+    font-family: monospace;
+    font-size: 13px;
+    font-style: italic;
+    border: 2px solid silver;
+}
